@@ -31,7 +31,13 @@ This Flask application generates signed URLs for CloudFront resources. It uses R
    pip install -r requirements.txt
    ```
 
-3. Ensure you have your CloudFront private key file and update the `CLOUDFRONT_KEY_PAIR_ID`, `CLOUDFRONT_URL`, and `PRIVATE_KEY_PATH` in the code.
+3. Create RSA key:
+   ```bash
+   openssl genrsa -out private_key.pem 2048
+   openssl rsa -pubout -in private_key.pem -out public_key.pem
+   ```
+
+4. Ensure you have your CloudFront private key file and update the `CLOUDFRONT_KEY_PAIR_ID`, `CLOUDFRONT_URL`, and `PRIVATE_KEY_PATH` in the code.
 
 ## Running the Application
 
