@@ -58,7 +58,7 @@ GET http://0.0.0.0:8080/generate-signed-url?object_key=your-object-key
 
 ```json
 {
-  "signed_url": "https://d29y3iyouiqp6h.cloudfront.net/your-object-key?Policy=...&Signature=...&Key-Pair-Id=..."
+  "signed_url": "https://d29y3iyourtyhgfg6h.cloudfront.net/your-object-key?Policy=...&Signature=...&Key-Pair-Id=..."
 }
 ```
 
@@ -91,8 +91,8 @@ Creates a Flask application instance.
 ### Constants
 
 ```python
-CLOUDFRONT_KEY_PAIR_ID = 'K304710OSEWKEE'
-CLOUDFRONT_URL = 'https://d29y3iyouiqp6h.cloudfront.net'
+CLOUDFRONT_KEY_PAIR_ID = 'K304710ODFGFDVSEWKEE'
+CLOUDFRONT_URL = 'https://d29y3ifgcfyouiqp6h.cloudfront.net'
 PRIVATE_KEY_PATH = 'private_key.pem'
 ```
 - **CLOUDFRONT_KEY_PAIR_ID**: The ID of the CloudFront key pair.
