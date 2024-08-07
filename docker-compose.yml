@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  signed_url_service:
+    image: signed_url:v1
+    container_name: signed_url_container
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
