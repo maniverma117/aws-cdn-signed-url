@@ -252,4 +252,5 @@ services:
 ```
 
 This Docker Compose file will build the Docker image and run the Flask application, exposing it on port 8080.
+```docker-compose up -d
 ```
