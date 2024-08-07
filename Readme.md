@@ -51,7 +51,7 @@ The application will run on `http://0.0.0.0:8080`.
 ### Example Request
 
 ```
-GET /generate-signed-url?object_key=your-object-key
+GET http://0.0.0.0:8080/generate-signed-url?object_key=your-object-key
 ```
 
 ### Example Response
