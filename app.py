@@ -8,8 +8,8 @@ import json
 
 app = Flask(__name__)
 
-CLOUDFRONT_KEY_PAIR_ID = 'K304710OSEWKEE'
-CLOUDFRONT_URL = 'https://d29y3iyouiqp6h.cloudfront.net'
+CLOUDFRONT_KEY_PAIR_ID = 'K304710OSSDDSEWKEE'
+CLOUDFRONT_URL = 'https://d29y3idfyodfghfuiqp6h.cloudfront.net'
 PRIVATE_KEY_PATH = 'private_key.pem'
 
 def load_private_key():
